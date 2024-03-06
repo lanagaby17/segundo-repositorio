@@ -16,6 +16,10 @@ header {
     align-items: center;
     padding: 24px 0;
 }
+.cabecalha-imagem {
+    width: 20%;
+}
+
 
 .cabecalho-lista-item{
     display: inline-block;
