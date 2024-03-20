@@ -3,13 +3,17 @@
     padding: 0;
 }
 
+body{
+    font-family:'Yrsa',sans-serif;
+}
+
 header {
     background-color: blueviolet;
     color: black;
 }
 
 .cabecalho{
-    background-color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.445);
     color: black;
     display: flex;
     justify-content: space-around;
@@ -33,6 +37,17 @@ header {
 
 .escola{
     background-image: -moz-linear-gradient(blueviolet,black);
-    color: white;
+    color: rgb(20, 20, 20);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0%;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
 }
