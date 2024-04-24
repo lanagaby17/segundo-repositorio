@@ -13,7 +13,7 @@ header {
 }
 
 .cabecalho{
-    background-color: rgba(137, 43, 226, 0.445);
+    background-color: #892be271;
     color: black;
     display: flex;
     justify-content: space-around;
@@ -36,8 +36,8 @@ header {
 }
 
 .escola{
-    background-image: -moz-linear-gradient(blueviolet,black);
-    color: rgb(20, 20, 20);
+    background-image: linear-gradient(blueviolet,black);
+    color: #141414;
     display: flex;
     justify-content: center;
     align-items: center;
