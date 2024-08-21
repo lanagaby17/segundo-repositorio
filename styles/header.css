@@ -54,7 +54,7 @@
     }
     
     .cabecalho-lista-item{
-    padding: 1em0;
+    padding: 1em;
     color: var(--cor-principal);
     }
     
@@ -67,8 +67,8 @@
     color: var(--laranja);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -background-clip: text;
-    text
+    background-clip: text;
+    text-transform: uppercase;
     }
 
     .opcoes {
