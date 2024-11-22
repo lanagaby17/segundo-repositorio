@@ -19,7 +19,7 @@
 
 .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 10px;
     background: #fff;
     display: flex;
     justify-content: center;
@@ -27,9 +27,9 @@
 }
 
 .swiper-slide img {
-    width: 100%;
+    width: 50%;
     height: auto; /* Mantém a proporção da imagem */
-    max-height: 400px;
+    max-height: 200px;
     object-fit: cover; /* Ajusta a imagem para preencher o contêiner */
 }
 
