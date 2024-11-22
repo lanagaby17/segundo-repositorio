@@ -145,67 +145,65 @@
         
         <h2 class="carrossel__titulo">Nossos Serviços</h2>
 
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide"><img src="./img/collant.jpeg" alt="collant"></div>
-                <div class="swiper-slide"><img src="./img/coque.png" alt="coque"></div>
-                <div class="swiper-slide"><img src="./img/figurino.jpeg" alt="figurinos"></div>
-                <div class="swiper-slide"><img src="./img/meiacalça.png" alt="meia calça"></div>
-                <div class="swiper-slide"><img src="./img/pose.ballet.jpeg" alt="pose de ballet"></div>
-                <div class="swiper-slide"><img src="./img/saia.jpeg" alt="saia"></div>
-                <div class="swiper-slide"><img src="./img/sapatilha.jpeg" alt="sapatilha"></div>
-                <div class="swiper-slide"><img src="./img/sapatilha.webp" alt="sapatilha"></div>
-                <div class="swiper-slide"><img src="img/aula.jpeg" alt="abertura"></div>
-                
-                
+        <div class="carrossel__container">
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./img/collant.jpeg" alt="collant"></div>
+                    <div class="swiper-slide"><img src="./img/coque.png" alt="coque"></div>
+                    <div class="swiper-slide"><img src="./img/figurino.jpeg" alt="figurinos"></div>
+                    <div class="swiper-slide"><img src="./img/meiacalça.png" alt="meia calça"></div>
+                    <div class="swiper-slide"><img src="./img/pose.ballet.jpeg" alt="pose de ballet"></div>
+                    <div class="swiper-slide"><img src="./img/saia.jpeg" alt="saia"></div>
+                    <div class="swiper-slide"><img src="./img/sapatilha.jpeg" alt="sapatilha"></div>
+                    <div class="swiper-slide"><img src="./img/sapatilha.webp" alt="sapatilha"></div>
+                    <div class="swiper-slide"><img src="img/aula.jpeg" alt="abertura"></div>
+                    
+                    
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-pagination"></div>
+                            
+                    
+            
+            </div>
+            
+            <!-- Promoção - Melhor Produto -->
+            <div class="card">
+
+                <div class="card__descricao">
+
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você também se interesse por... </h3>
+                        <h2 class="descricao__titulo-produto">Aulas Particulares</h2>
+                        <p class="descricao__texto"> Aulas particulares de Matemática, Pensamento Computacional, Robótica, Programação em HTML, CSS e Javascript</p>
+                    </div>
+                    
+                    <img src="./img/Cópia de Dia internacional da dança post instagram minimalista  (2).png" alt="Foto da promoção" class="descricao__imagem">
+
                 </div>
 
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-pagination"></div>
-                        
-                
-           
-        </div>
-        
-        <!-- Promoção - Melhor Produto -->
-        <div class="card">
+                <div class="card__botoes">
+                    <ul class="botoes">
+                        <li class="botoes__item">
+                            <img src="./img/favoritos.svg" alt="Favoritar produto">
+                        </li>
+                        <li class="botoes__item"> 
+                            <img src="./img/compras.svg" alt="Adicionar no carrinho de compras">
+                        </li>
+                    </ul>
 
-            <div class="card__descricao">
+                    <a href="#" class="botoes__ancora">Saiba mais</a>
 
-                <div class="descricao">
-                    <h3 class="descricao__titulo">Talvez você também se interesse por... </h3>
-                    <h2 class="descricao__titulo-produto">Aulas Particulares</h2>
-                    <p class="descricao__texto"> Aulas particulares de Matemática, Pensamento Computacional, Robótica, Programação em HTML, CSS e Javascript</p>
                 </div>
-                
-                <img src="./img/Cópia de Dia internacional da dança post instagram minimalista  (2).png" alt="Foto da promoção" class="descricao__imagem">
-
-            </div>
-
-            <div class="card__botoes">
-                <ul class="botoes">
-                    <li class="botoes__item">
-                        <img src="./img/favoritos.svg" alt="Favoritar produto">
-                    </li>
-                    <li class="botoes__item"> 
-                        <img src="./img/compras.svg" alt="Adicionar no carrinho de compras">
-                    </li>
-                </ul>
-
-                <a href="#" class="botoes__ancora">Saiba mais</a>
-
             </div>
         </div>
-
-    
-    
-    
-    
     </section>
 
     <section class="estudante">
@@ -240,7 +238,7 @@
             prevEl: ".swiper-button-prev",
           },
         });
-      </script>
+    </script>
 
 </body>
 
