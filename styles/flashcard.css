@@ -74,8 +74,9 @@
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
     background-color: rgb(132, 94, 194, 0.1);
-    border: 4px solid var(--cor-preto);
+    border: 4px solid var(--cor-principal);
     font-size: 0.8vw;
+    color: var(--cor-preto);
 }
 
 @media (max-width: 560px) {
