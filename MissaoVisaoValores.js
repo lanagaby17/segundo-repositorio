@@ -13,5 +13,5 @@ criaCartao (
 criaCartao (
     'Valores',
     'Saiba quais são os valores de nossa empresa!',
-    'Nossos valores são EXCELÊNCIA- Buscamos a excelência em tudo que fazemos, do ensino á organização dos eventos. Respeito-Valorizamos a diversidade, o respeito mútuo e a inclusão em nossa comunidade. Criatividade- Estimulamos a criatividade e a expressão individual de nossos alunos. Compromisso- Somos comprometidos com o crescimento e bem-estar de nossos alunos, incentivando-os a alcançar eu máximo potencial.'
+    'Buscamos a EXELENCIA em tudo que fazemos, do ensino á organização dos eventos. RESPEITO-Valorizamos a diversidade, o respeito mútuo e a inclusão em nossa comunidade. CRIATIVIDADE- Estimulamos a criatividade e a expressão individual de nossos alunos. COMPROMISSO- Somos comprometidos com o crescimento e bem-estar de nossos alunos, incentivando-os a alcançar o máximo potencial.'
 )
